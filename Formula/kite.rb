@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.21.0 at 2025-12-23T16:34:56.698785831Z
+# Generated with JReleaser 1.21.0 at 2025-12-23T19:43:57.978524624Z
 
 class Kite < Formula
   desc "Multi-cloud Infrastructure as Code CLI"
@@ -8,11 +8,11 @@ class Kite < Formula
 
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/kitecorp/kite-cli/releases/download/0.2.3/kite-0.2.3-linux-amd64.zip"
-    sha256 "08a8ff85fa4f19ae8e62d8a418584ab7901cf986ad138b89799bb2ca37a4836f"
+    sha256 "5a16e1377b8167e5e3f60aa177c8f58b845c47682e74f721a6efc7612e0cd357"
   end
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/kitecorp/kite-cli/releases/download/0.2.3/kite-0.2.3-osx-arm64.zip"
-    sha256 "e1a04a2f19be7cec189474469f5dd31829ba49cf43b928364a6972011541d4e6"
+    sha256 "a6b93622b5f3d955457b1bb3a2cb06d365ead5f14a7a6fb9d702d45b6d6c938a"
   end
 
 
