@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.21.0 at 2025-12-23T12:39:18.217117757Z
+# Generated with JReleaser 1.21.0 at 2025-12-23T12:39:43.807862343Z
 
 class Kite < Formula
   desc "Multi-cloud Infrastructure as Code CLI"
