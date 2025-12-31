@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.21.0 at 2025-12-31T01:29:47.920863897Z
+# Generated with JReleaser 1.21.0 at 2025-12-31T17:23:32.1075357Z
 
 class Kite < Formula
   desc "Multi-cloud Infrastructure as Code CLI"
@@ -8,19 +8,19 @@ class Kite < Formula
 
   if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
     url "https://github.com/kitecorp/kite-cli/releases/download/0.2.4/kite-0.2.4-linux-arm64.zip"
-    sha256 "5111e17a32ef13e726fa25b452858e49306ce4632f39587131bf573d73043de3"
+    sha256 "c14d0f5f6df1d624fce364d32946a8b86f5013302ff224b06907b4c99b97fd6c"
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/kitecorp/kite-cli/releases/download/0.2.4/kite-0.2.4-linux-amd64.zip"
-    sha256 "0b8ad329c1f8a0d61a122dff453b24748c52e2b26ff26785c7c4f4a440bcd2cd"
+    sha256 "9cfc7968557920c5b71d92b6a66842832fecb0bbd7b8296617bfcd262bfe57b0"
   end
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/kitecorp/kite-cli/releases/download/0.2.4/kite-0.2.4-osx-arm64.zip"
-    sha256 "64161e70d12a3a35e716751e915690fe0cd8e71d96ea36191b5768fdb1397240"
+    sha256 "eab2bb4b250005dee93ba557dc40efe9de2c42d305a13c0d7f801a3fb24d62b1"
   end
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/kitecorp/kite-cli/releases/download/0.2.4/kite-0.2.4-osx-amd64.zip"
-    sha256 "cdd6d0e36caf919287dfeed09903ed9154ecbde1210dd16e68ccb4d651334123"
+    sha256 "7d1b2a9f279843450ae646dcebb97af03062e25740072606712212a2b34c2e15"
   end
 
 
