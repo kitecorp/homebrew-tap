@@ -1,26 +1,26 @@
-# Generated with JReleaser 1.21.0 at 2025-12-24T12:39:20.243648128Z
+# Generated with JReleaser 1.21.0 at 2025-12-31T01:08:40.226929078Z
 
 class Kite < Formula
   desc "Multi-cloud Infrastructure as Code CLI"
-  homepage "https://github.com/kitecorp/kite"
-  version "0.2.3"
+  homepage "https://github.com/kitecorp/kite-language"
+  version "0.2.4"
   license "Apache-2.0"
 
   if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-    url "https://github.com/kitecorp/kite-cli/releases/download/0.2.3/kite-0.2.3-linux-arm64.zip"
-    sha256 "4bbeed889636f71f30a5969f07a2cfc64cf13c8a28965504534f0183abfa1e20"
+    url "https://github.com/kitecorp/kite-cli/releases/download/0.2.4/kite-0.2.4-linux-arm64.zip"
+    sha256 "c7294c8ee66e5cdb6756bae20f80d088004c824f011dbf854470b1190241ddc9"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/kitecorp/kite-cli/releases/download/0.2.3/kite-0.2.3-linux-amd64.zip"
-    sha256 "302300f39ae0a0f72dcfdb70d4f76b69bf9d391b3ddd16afc2735e46dd2a98db"
+    url "https://github.com/kitecorp/kite-cli/releases/download/0.2.4/kite-0.2.4-linux-amd64.zip"
+    sha256 "9e16172101bb2c7843c0587aef3e3916e02a19f8e94844a65b9561f32be42146"
   end
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/kitecorp/kite-cli/releases/download/0.2.3/kite-0.2.3-osx-arm64.zip"
-    sha256 "64863f583674fd6cf2b02e01fc6b90d384221eafb022d03884ff5b8743ade382"
+    url "https://github.com/kitecorp/kite-cli/releases/download/0.2.4/kite-0.2.4-osx-arm64.zip"
+    sha256 "1f61366ed93b4195c419a8aa28942a9d9603fe63894dfb01a52e7dae4c691094"
   end
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/kitecorp/kite-cli/releases/download/0.2.3/kite-0.2.3-osx-amd64.zip"
-    sha256 "c12ca19c9c24425b871765e7fea4fe3bac4286f1895ecc2cbded363352f7bfcc"
+    url "https://github.com/kitecorp/kite-cli/releases/download/0.2.4/kite-0.2.4-osx-amd64.zip"
+    sha256 "4702d5747861850c605aaafd99cc0d7de7781d7664d8e7b1b8c48ccc18284812"
   end
 
 
@@ -31,6 +31,6 @@ class Kite < Formula
 
   test do
     output = shell_output("#{bin}/kite --version")
-    assert_match "0.2.3", output
+    assert_match "0.2.4", output
   end
 end
